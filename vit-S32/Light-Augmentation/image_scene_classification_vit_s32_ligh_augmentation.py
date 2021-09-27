@@ -11,8 +11,6 @@ Original file is located at
 
 !nvidia-smi
 
-!pip install -q tensorflow-addons
-
 """## Data Gathering"""
 
 !wget -q http://data.vision.ee.ethz.ch/ihnatova/camera_scene_detection_train.zip
@@ -30,7 +28,6 @@ from sklearn.preprocessing import LabelEncoder
 import tensorflow as tf
 from tensorflow import keras
 import tensorflow_hub as hub
-import tensorflow_addons as tfa
 
 SEEDS = 42
 
