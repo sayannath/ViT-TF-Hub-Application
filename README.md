@@ -44,15 +44,15 @@ These models are available on [TensorFlow Hub](https://www.tfhub.dev) for Vision
 
 ## Benchmark Results
 
-| Sl No | Models                   | No of Parameters | Accuracy | Loss   | Validation Accuracy | Validation Loss |
-|-------|--------------------------|------------------|----------|--------|---------------------|-----------------|
-| 1     | ViT-S/16                 | 21,677,214       | 99.73%   | 1.72%  | 96.87%              | 13.39%          |
-| 2     | ViT R26-S/32(light aug)  | 36,058,462       | 99.70%   | 1.38%  | 96.67%              | 14.38%          |
-| 3     | ViT R26-S/32(medium aug) | 36,058,462       | 99.80%   | 1.15%  | 97.17%              | 14.50%          |
-| 4     | ViT B/32                 | 87,478,302       | 99.43%   | 2.76%  | 96.87%              | 10.63%          |
-| 5     | MobileNetV3Small         | 2,070,158        | 95.20%   | 22.87% | 92.73%              | 21.49%          |
-| 6     | MobileNetV2              | 2,929,246        | 95.06%   | 22.35% | 88.89%              | 42.24%          |
-| 7     | BigTransfer (BiT)        |                  | 99.53%   | 3.41%  | 96.97%              | 9.49%           |
+| Sl No |          Models          | No of Parameters | Accuracy | Validation Accuracy |
+|:-----:|:------------------------:|:----------------:|:--------:|:-------------------:|
+|   1   |         ViT-S/16         |    21,677,214    |  99.73%  |        96.87%       |
+|   2   |  ViT R26-S/32(light aug) |    36,058,462    |  99.70%  |        96.67%       |
+|   3   | ViT R26-S/32(medium aug) |    36,058,462    |  99.80%  |        97.17%       |
+|   4   |         ViT B/32         |    87,478,302    |  99.43%  |        96.87%       |
+|   5   |     MobileNetV3Small     |     2,070,158    |  95.20%  |        92.73%       |
+|   6   |        MobileNetV2       |     2,929,246    |  95.06%  |        88.89%       |
+|   7   |     BigTransfer (BiT)    |                  |  99.53%  |        96.97%       |
 
 > Note: Last three results are benchmarked during thr CVPR Competition. You can find the repository [here](https://github.com/sayannath/Image-Scene-Classification).
 
