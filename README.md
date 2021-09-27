@@ -5,6 +5,7 @@
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg?style=for-the-badge)](https://gitHub.com/sayannath)
 
 # Vision Transformer TF-Hub Application
+![PngItem_3011351 (1)](https://user-images.githubusercontent.com/72073401/134901679-918e04ca-2e70-4847-8e15-98003ff878ae.png)
 
 ## Description
 This repositories show how to `fine-tune` a Vision Transformer model from [TensorFlow Hub](https://www.tfhub.dev) on the Image Scene Detection dataset.
