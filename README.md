@@ -56,14 +56,14 @@ These models are available on [TensorFlow Hub](https://www.tfhub.dev) for Vision
 > Note: Last three results are benchmarked during thr CVPR Competition. You can find the repository [here](https://github.com/sayannath/Image-Scene-Classification).
 
 ## Notebooks
- - [x] ViT S/16 
- - [x] ViT R26-S/32(Light Augmentation) 
- - [x] ViT R26-S/32(Medium Augmentation)
- - [x] ViT B/32 
- - [ ] ViT R50-L/32
- - [ ] ViT B/16
- - [ ] ViT L/16
- - [ ] ViT B/8
+:white_check_mark: **ViT** **S/16** <br>
+:white_check_mark: **ViT** **R26-S/32 (Light Augmentation)** <br>
+:white_check_mark: **ViT** **R26-S/32 (Medium Augmentation)** <br>
+:white_check_mark: **ViT** **B/32** <br>
+:white_large_square: **ViT R50-L/32** <br>
+:white_large_square: **ViT B/16** <br>
+:white_large_square: **ViT L/16** <br>
+:white_large_square: **ViT B/8** <br>
 
 ## Links
 | Sl No | Models                   | Colab Notebook | TensorBoard |
